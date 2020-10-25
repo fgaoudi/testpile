@@ -1,0 +1,97 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5417379f-42bb-441c-9c86-5697f865f9fb": {
+        "id": "5417379f-42bb-441c-9c86-5697f865f9fb",
+        "parent": null,
+        "name": "testpile.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testpile.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 28
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "testpile"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigformatest2get",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1603662693034
+      }
+    },
+    "openFiles": [
+      "5417379f-42bb-441c-9c86-5697f865f9fb"
+    ],
+    "currentFileId": "5417379f-42bb-441c-9c86-5697f865f9fb",
+    "resources": {
+      "apigformatest2get": {
+        "name": "apigformatest2get",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "forma",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test2",
+          "resourcePath": "/test2",
+          "restMethod": "GET",
+          "proxyIntegration": true,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "ppr",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4.1",
+    "projectName": "testpile",
+    "projectDescription": "pileforma",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ca-central-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1603662806072
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testpile",
+      "url": "https://github.com/fgaoudi/testpile"
+    }
+  }
+}
